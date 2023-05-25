@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All-product-sonu monu Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="logo">
+                <div>Sonu Monu Garment</div>
+                <!-- <img src="images/logo.png" width="125px"  alt=""> -->
+                <div class="Menu">
+
+                <a href="">Home</a>
+                <a href="">Services</a>
+                <a href="">products</a>
+                <a href="">contact</a>
+                <a href="">Account</a>
+                <img src="images/cart.png" width="30px" height="30px" alt="">
+                <!-- <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> -->
+                </div>
+            </div>
+        </nav>
+    </div>
+
+<!-- ----account pager -->
+<div class="account-page">
+    <div class="containner">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/image1.png" width="100%" alt="">
+            </div>
+            <div class="col-2">
+                <div class="form-containner">
+                    <div class="form-btn">
+                        <span>Login</span>
+                        <span>Register</span>
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forget password</a>
+                    </form>
+                    <form>
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="password">
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- -------js for toggle menu----------> 
+    <Script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </Script>  
+    
+    
